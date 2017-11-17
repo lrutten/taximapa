@@ -5,7 +5,10 @@
   {mod, { taximapa_app, []}},
   {applications,
    [kernel,
-    stdlib
+    stdlib,
+    runtime_tools,
+    wx,
+    observer
    ]},
   {env,[]},
   {modules, []},
